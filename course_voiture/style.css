@@ -1,0 +1,48 @@
+#piste {
+	margin: 20px;
+	width: 1000px;
+	min-height: 600px;
+	background-color: beige;
+	position: relative;
+}
+
+.balise {
+width: 100px;
+height: 100px;
+
+}
+
+#piste > div{
+    
+    
+    margin-bottom: 50px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    background-image: url('car.png');
+}
+#piste > div:nth-of-type(1n+2){
+
+	margin-top: 150px;
+
+}
+
+.flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.move {
+
+}
+
+body{
+	background-color: #eee;
+}
+
+/*.winner{
+    background-image: url('feu.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border : solid orange 4px;
+}*/
